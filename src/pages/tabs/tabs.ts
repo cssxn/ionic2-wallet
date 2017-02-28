@@ -1,9 +1,9 @@
 import { Component } from '@angular/core';
 import {TranslateService} from '@ngx-translate/core';
-
 import { Platform } from 'ionic-angular';
-import { StatusBar, Splashscreen } from 'ionic-native';
+import { StatusBar } from 'ionic-native';
 
+// Tabs Page
 import { HomePage } from '../home/home';
 import { TabReceivePage } from '../tab-receive/tab-receive';
 import { TabSendPage } from '../tab-send/tab-send';
@@ -25,6 +25,10 @@ export class TabsPage {
   constructor(platform: Platform, private translate:TranslateService) {
     platform.ready().then(() => {
       // Okay, so the platform is ready and our plugins are available.
+
+      console.log('Platforms info ~ ',platform.platforms());
+      console.log('Platform Version ~ ',platform.versions());
+      console.log('Platform lang ~ ',platform.lang());
 
       // Set Light StatusBar
       StatusBar.styleLightContent();

@@ -2,6 +2,11 @@ import { NgModule, ErrorHandler } from '@angular/core';
 import { Http } from '@angular/http';
 import { IonicApp, IonicModule, Platform, IonicErrorHandler } from 'ionic-angular';
 
+/**
+ *  Plugs
+ *  ===============
+ */
+
 // Interceptor
 import { HttpInterceptorModule, HttpInterceptor } from 'angular2-http-interceptor';
 import { AuthInterceptor } from './app.authInterceptor';
@@ -14,6 +19,9 @@ import { TranslateHttpLoader } from "@ngx-translate/http-loader";
 export function HttpLoaderFactory(http: Http) {
   return new TranslateHttpLoader(http, "assets/i18n/", ".json");
 }
+
+// QrCode
+import { QRCodeModule } from 'angular2-qrcode';
 
 /**
  *  Pages
@@ -35,6 +43,7 @@ import { TabSettingsPage } from '../pages/tab-settings/tab-settings';
 
 // Providers
 import { BaseService } from '../providers/base-service';
+import { WindowRef } from '../providers/WindowRef';
 
 
 let providers = [
@@ -71,12 +80,14 @@ let providers = [
         deps: [Http]
       }
     }),
+    // QRCode
+    QRCodeModule,
     IonicModule.forRoot(MyApp)
   ],
   bootstrap: [IonicApp],
   entryComponents: [
     ...providers
   ],
-  providers: [BaseService, { provide: ErrorHandler, useClass: IonicErrorHandler }]
+  providers: [BaseService, WindowRef,{ provide: ErrorHandler, useClass: IonicErrorHandler }]
 })
 export class AppModule { }

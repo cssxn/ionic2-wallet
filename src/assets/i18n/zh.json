@@ -3,12 +3,14 @@
     "TITLE": "Hello Angular 2 with ngx-translate!",
     "SELECT": "Change language"
   },
-  "ABOUT": {
-    "TITLE": "About"
+  "RECEIVE": {
+    "TITLE": "接收"
   },
-  "CONTACT": {
-    "TITLE": "Contact",
-    "TWITTER_MESSAGE": "Follow us on Twitter"
+  "SEND": {
+    "TITLE": "发送"
+  },
+  "SETTINGS": {
+    "TITLE": "设置"
   },
   "TABS": {
     "HOME": "主页",

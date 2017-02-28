@@ -7,12 +7,19 @@
 <ion-header>
 
   <ion-navbar>
-    <ion-title>tab-send</ion-title>
+    <ion-title>{{'SEND.TITLE' | translate}}</ion-title>
   </ion-navbar>
 
 </ion-header>
 
-
 <ion-content padding>
+
+  <ion-card>
+
+    <ion-card-header>
+      <button ion-button full (click)="scanner()">扫描</button>
+    </ion-card-header>
+
+  </ion-card>
 
 </ion-content>

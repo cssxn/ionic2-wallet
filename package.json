@@ -23,6 +23,7 @@
     "@ngx-translate/core": "^6.0.0",
     "@ngx-translate/http-loader": "0.0.3",
     "angular2-http-interceptor": "^2.0.0",
+    "angular2-qrcode": "^2.0.0",
     "ionic-angular": "2.0.1",
     "ionic-native": "2.4.1",
     "ionicons": "3.0.0",
