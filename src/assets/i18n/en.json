@@ -1,0 +1,19 @@
+{
+  "HOME": {
+    "TITLE": "Hello Angular 2 with ngx-translate!",
+    "SELECT": "Change language"
+  },
+  "ABOUT": {
+    "TITLE": "About"
+  },
+  "CONTACT": {
+    "TITLE": "Contact",
+    "TWITTER_MESSAGE": "Follow us on Twitter"
+  },
+  "TABS": {
+    "HOME": "Home",
+    "RECEIVE": "Receive",
+    "SEND": "Send",
+    "SETTINGS": "Settings"
+  }
+}

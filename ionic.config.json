@@ -1,0 +1,6 @@
+{
+  "name": "wallet",
+  "app_id": "com.reitschain.wallet",
+  "v2": true,
+  "typescript": true
+}

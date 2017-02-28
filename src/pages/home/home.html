@@ -1,0 +1,37 @@
+<ion-header mode="'md'">
+  <ion-navbar>
+    <ion-title class="center">Home</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+
+  <ion-card>
+
+    <ion-row>
+      <ion-col>
+        <strong>资产名称</strong>
+      </ion-col>
+      <ion-col>
+        <strong>资产单位</strong>
+      </ion-col>
+      <ion-col>
+        <strong>发行量</strong>
+      </ion-col>
+      <ion-col>
+        <strong>余额</strong>
+      </ion-col>
+    </ion-row>
+
+    <ion-row *ngFor="let rate of assets">
+      <ion-col>{{rate.name}}</ion-col>
+      <ion-col>{{rate.name_en}}</ion-col>
+      <ion-col>{{rate.total}}</ion-col>
+      <ion-col>{{rate.holdings}}</ion-col>
+    </ion-row>
+
+
+
+  </ion-card>
+
+</ion-content>
