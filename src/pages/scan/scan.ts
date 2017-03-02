@@ -78,10 +78,14 @@ export class ScanPage {
     this._updateCapabilities();
     this._handleCapabilities();
     if(this.scannerHasPermission) {
+      console.log('检测有权限')
       this.activate();
     }
   }
 
+  /**
+   * 初始化
+   */
   ionViewDidEnter() {
     // try initializing and refreshing status any time the view is entered
     this.scannerService.gentleInitialize(() => {

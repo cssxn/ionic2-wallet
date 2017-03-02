@@ -2,6 +2,10 @@ import { Component } from '@angular/core';
 import { ToastController } from 'ionic-angular';
 import { TranslateService } from '@ngx-translate/core';
 import { Clipboard } from 'ionic-native';
+import { BitcoreService } from '../../services/bitcore.service';
+
+import nw from 'nw';
+
 
 /*
   Generated class for the TabReceive page.
@@ -18,14 +22,18 @@ export class ReceivePage {
   private addressQRCode: string = '';
   private pasteAddressButtonTitle: string = '粘贴复制的信息';
 
-  constructor(private toastCtrl: ToastController, private translate: TranslateService) {
+
+  constructor(private toastCtrl: ToastController,
+  private translate: TranslateService,
+  private bitcoreService:BitcoreService
+  ) {
 
     this.addressQRCode = 'hello address!';
 
   }
 
   ionViewDidLoad() {
-    console.log('ionViewDidLoad TabReceivePage');
+    console.log('ionViewDidLoad TabReceivePage',nw);
   }
 
   /**
@@ -51,17 +59,21 @@ export class ReceivePage {
    */
   copyAddress(beCopyAddress: string) {
     console.log('copyAddress ～', beCopyAddress);
-    Clipboard.copy(beCopyAddress);
-    this.presentToast();
+    Clipboard.copy(beCopyAddress).then(()=>{
+      this.presentToast('已复制到剪切板');
+    }).catch((err)=>{
+      console.log('复制失败',err);
+       this.presentToast('复制失败');
+    });
   }
 
   /**
    * Show it, When Copy Address success
    */
-  presentToast() {
+  presentToast(text) {
 
     let toast = this.toastCtrl.create({
-      message: '已复制到剪切板',
+      message: text,
       duration: 3000,
       position: 'bottom'
     });

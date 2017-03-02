@@ -26,6 +26,7 @@
     "angular2-http-interceptor": "^2.0.0",
     "angular2-logger": "^0.5.1",
     "angular2-qrcode": "^2.0.0",
+    "bitcore-lib": "^0.13.19",
     "cordova-plugin-qrscanner": "^2.5.0",
     "ionic-angular": "2.0.1",
     "ionic-native": "2.4.1",
@@ -36,6 +37,9 @@
   },
   "devDependencies": {
     "@ionic/app-scripts": "1.1.0",
+    "bitcore-mnemonic": "^1.1.1",
+    "lodash": "^4.17.4",
+    "nw": "^0.20.3",
     "nw-builder": "^3.2.0",
     "typescript": "2.0.9"
   },
