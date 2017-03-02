@@ -23,7 +23,7 @@ export class AuthInterceptor implements IHttpInterceptor {
   }
 
   after(res: Observable<Response>):Observable<any>{
-    console.log('response',res);
+    console.log('from ServerSide response',res);
     return res;
   }
 

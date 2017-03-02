@@ -1,7 +1,6 @@
 import { Component } from '@angular/core';
 import { NavController, ModalController } from 'ionic-angular';
-import { LoginPage } from '../login/login';
-import { BaseService } from '../../providers/base-service';
+import { BaseService } from '../../services/base-service';
 
 // var Mnemonic = require('bitcore-menmonic');
 
@@ -25,8 +24,8 @@ export class HomePage {
    * 跳转到登录页面
    */
   presentLoginModal() {
-    let modal = this.modalCtrl.create(LoginPage);
-    modal.present();
+    // let modal = this.modalCtrl.create();
+    // modal.present();
   }
 
 }

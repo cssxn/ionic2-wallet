@@ -1,0 +1,51 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>
+      Settings
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content class="settings">
+
+  <div class="settings-list list">
+
+    <ion-item-group>
+      <ion-item-divider color="light">Preferences</ion-item-divider>
+
+       <a ion-item>
+        <ion-icon item-left>
+          <img src="assets/img/icon-address-book.svg"/>
+        </ion-icon>
+        <span>联系人</span>
+      </a>
+
+      <a ion-item>
+        <ion-icon item-left>
+          <img src="assets/img/icon-advanced.svg"/>
+        </ion-icon>
+        <span>备份</span>
+      </a>
+
+      <a ion-item>
+       <ion-icon item-left>
+         <img src="assets/img/icon-language.svg"/>
+       </ion-icon>
+       <span>语言</span>
+       <span class="item-note">
+         {{currentLanguageName}}
+       </span>
+     </a>
+
+      <a ion-item>
+        <ion-icon item-left>
+          <img src="assets/img/icon-about.svg"/>
+        </ion-icon>
+        <span class="setting-title">关于</span>
+      </a>
+
+    </ion-item-group>
+
+  </div>
+
+</ion-content>

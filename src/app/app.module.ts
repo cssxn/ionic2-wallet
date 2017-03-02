@@ -6,62 +6,36 @@ import { IonicApp, IonicModule, Platform, IonicErrorHandler } from 'ionic-angula
  *  Plugs
  *  ===============
  */
-
+import { Logger } from 'angular2-logger/core';
 // Interceptor
 import { HttpInterceptorModule, HttpInterceptor } from 'angular2-http-interceptor';
 import { AuthInterceptor } from './app.authInterceptor';
-
 // translate
 import { TranslateModule, TranslateLoader } from '@ngx-translate/core';
 import { TranslateHttpLoader } from "@ngx-translate/http-loader";
-
 // AoT requires an exported function for factories
 export function HttpLoaderFactory(http: Http) {
   return new TranslateHttpLoader(http, "assets/i18n/", ".json");
 }
-
 // QrCode
 import { QRCodeModule } from 'angular2-qrcode';
 
 /**
  *  Pages
- *  ===============
+ *  ========
  */
-
-// Other
 import { MyApp } from './app.component';
-import { AboutPage } from '../pages/about/about';
-import { ContactPage } from '../pages/contact/contact';
+import { PAGES } from '../pages/pages';
 
-// tabs
-import { TabsPage } from '../pages/tabs/tabs';
-import { HomePage } from '../pages/home/home';
-import { LoginPage } from '../pages/login/login';
-import { TabReceivePage } from '../pages/tab-receive/tab-receive';
-import { TabSendPage } from '../pages/tab-send/tab-send';
-import { TabSettingsPage } from '../pages/tab-settings/tab-settings';
-
-// Providers
-import { BaseService } from '../providers/base-service';
-import { WindowRef } from '../providers/WindowRef';
-
-
-let providers = [
-  MyApp,
-  AboutPage,
-  ContactPage,
-  HomePage,
-  TabsPage,
-  LoginPage,
-  TabReceivePage,
-  TabSendPage,
-  TabSettingsPage
-];
-
-
+/**
+ * Services
+ * =========
+ */
+import { SERVICES } from '../services/services.service';
 @NgModule({
   declarations: [
-    ...providers
+    MyApp,
+    ...PAGES
   ],
   imports: [
 
@@ -86,8 +60,9 @@ let providers = [
   ],
   bootstrap: [IonicApp],
   entryComponents: [
-    ...providers
+    MyApp,
+    ...PAGES
   ],
-  providers: [BaseService, WindowRef,{ provide: ErrorHandler, useClass: IonicErrorHandler }]
+  providers: [Logger,...SERVICES, { provide: ErrorHandler, useClass: IonicErrorHandler }]
 })
 export class AppModule { }
