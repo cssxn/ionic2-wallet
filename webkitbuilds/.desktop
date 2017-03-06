@@ -1,0 +1,11 @@
+[Desktop Entry]
+Type=Application
+Version=0.0.1
+Name=Wallet
+Comment=REITs Chain Wallet
+Exec=wallet
+Icon=icon-256.png
+Terminal=false
+Categories=Finance
+X-Ubuntu-Touch=true
+X-Ubuntu-StageHint=SideStage

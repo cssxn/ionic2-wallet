@@ -594,16 +594,6 @@ export class StorageService {
     });
   };
 
-  setAmazonGiftCards(network, gcs, cb) {
-    this.storage.set('amazonGiftCards-' + network, gcs, cb);
-  };
 
-  getAmazonGiftCards(network, cb) {
-    this.storage.get('amazonGiftCards-' + network, cb);
-  };
-
-  removeAmazonGiftCards(network, cb) {
-    this.storage.remove('amazonGiftCards-' + network, cb);
-  };
 
 }

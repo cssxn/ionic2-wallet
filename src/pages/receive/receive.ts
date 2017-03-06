@@ -67,6 +67,7 @@ export class ReceivePage {
     });
   }
 
+
   /**
    * Show it, When Copy Address success
    */

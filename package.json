@@ -1,13 +1,32 @@
 {
   "name": "wallet",
-  "author": "danyang.wang",
+  "version":"1.0.0",
   "homepage": "https://reitschain.com/",
   "private": true,
   "scripts": {
+  "main": "www/index.html",
+  "title": "Wallet",
+  "window": {
+    "title": "Wallet",
+    "icon": "www/img/logo/logo.ico",
+    "toolbar": false,
+    "show": true,
+    "visible": true,
+    "resizable": true,
+    "frame": true,
+    "width": 400,
+    "height": 650,
+    "min_width": 400,
+    "max_width": 800,
+    "min_height": 650,
+    "position": "center",
+    "fullscreen": false
+  },
     "clean": "ionic-app-scripts clean",
     "build": "ionic-app-scripts build",
     "ionic:build": "ionic-app-scripts build",
-    "ionic:serve": "ionic-app-scripts serve"
+    "ionic:serve": "ionic-app-scripts serve",
+	"build:macos":"node ./webkitbuilds/build.js && sh ./webkitbuilds/build-macos.sh"
   },
   "dependencies": {
     "@angular/common": "2.2.1",
