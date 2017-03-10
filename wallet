@@ -1,0 +1,1506 @@
+{
+  "version": 1,
+  "width": 120,
+  "height": 30,
+  "duration": 44.632583,
+  "command": "/bin/zsh",
+  "title": "",
+  "env": {
+    "TERM": "screen",
+    "SHELL": "/bin/zsh"
+  },
+  "stdout": [
+    [
+      0.226882,
+      "\u001b[1m\u001b[3m%\u001b[23m\u001b[1m\u001b[0m                                                                                                                       \r \r"
+    ],
+    [
+      0.000029,
+      "\u001bk~/Desktop/myApp\u001b\\"
+    ],
+    [
+      0.030842,
+      "\r\u001b[0m\u001b[23m\u001b[24m\u001b[J\u001b[01;32m➜  \u001b[36mmyApp\u001b[00m \u001b[01;34mgit:(\u001b[31mmaster\u001b[34m) \u001b[33m✗\u001b[00m \u001b[K"
+    ],
+    [
+      0.000103,
+      "\u001b[?1h\u001b="
+    ],
+    [
+      0.000038,
+      "\u001b[?2004h"
+    ],
+    [
+      2.346107,
+      "n"
+    ],
+    [
+      0.134706,
+      "\u0008np"
+    ],
+    [
+      0.096513,
+      "m"
+    ],
+    [
+      0.176082,
+      " "
+    ],
+    [
+      0.111844,
+      "r"
+    ],
+    [
+      0.097154,
+      "u"
+    ],
+    [
+      0.079787,
+      "n"
+    ],
+    [
+      0.159973,
+      " "
+    ],
+    [
+      0.168686,
+      "b"
+    ],
+    [
+      0.055176,
+      "u"
+    ],
+    [
+      0.079379,
+      "i"
+    ],
+    [
+      0.384871,
+      "l"
+    ],
+    [
+      0.167827,
+      "d"
+    ],
+    [
+      0.391592,
+      ":"
+    ],
+    [
+      1.039818,
+      "m"
+    ],
+    [
+      0.064230,
+      "a"
+    ],
+    [
+      0.599970,
+      "c"
+    ],
+    [
+      -1488787731.099487,
+      "o"
+    ],
+    [
+      1488787731.531234,
+      "s"
+    ],
+    [
+      0.312012,
+      "\u001b[?1l\u001b\u003e"
+    ],
+    [
+      0.000055,
+      "\u001b[?2004l"
+    ],
+    [
+      0.000004,
+      "\r\r\n"
+    ],
+    [
+      0.000809,
+      "\u001bknpm\u001b\\"
+    ],
+    [
+      0.371014,
+      "\u001b[?25l"
+    ],
+    [
+      0.003918,
+      "⸨\u001b[90m░░░░░░░░░░░░░░░░░░\u001b[0m⸩ ⠼ : \u001b[32minfo\u001b[0m \u001b[35musing\u001b[0m node@v6.9.2\u001b[K\r"
+    ],
+    [
+      0.021836,
+      "\r\u001b[K\u001b[?25h"
+    ],
+    [
+      0.000971,
+      "\r\n\u003e wallet@1.0.0 build:macos /Users/Daniel/Desktop/myApp\r\n\u003e node ./webkitbuilds/build.js \u0026\u0026 sh ./webkitbuilds/build-macos.sh\r\n\r\n"
+    ],
+    [
+      1.881564,
+      "Using v0.20.3 (sdk)\r\n"
+    ],
+    [
+      0.002071,
+      "Create cache folder in /Users/Daniel/Desktop/myApp/cache/0.20.3-sdk\r\n"
+    ],
+    [
+      0.000602,
+      "Using cache for: win64\r\n"
+    ],
+    [
+      0.000131,
+      "Create cache folder in /Users/Daniel/Desktop/myApp/cache/0.20.3-sdk\r\n"
+    ],
+    [
+      0.000649,
+      "Using cache for: osx64\r\n"
+    ],
+    [
+      0.000170,
+      "Create cache folder in /Users/Daniel/Desktop/myApp/cache/0.20.3-sdk\r\n"
+    ],
+    [
+      0.000065,
+      "Using cache for: linux64\r\n"
+    ],
+    [
+      0.035992,
+      "Create release folder in /Users/Daniel/Desktop/myApp/webkitbuilds/Wallet/linux64\r\n"
+    ],
+    [
+      0.000619,
+      "Create release folder in /Users/Daniel/Desktop/myApp/webkitbuilds/Wallet/win64\r\n"
+    ],
+    [
+      0.064350,
+      "Create release folder in /Users/Daniel/Desktop/myApp/webkitbuilds/Wallet/osx64\r\n"
+    ],
+    [
+      2.161761,
+      "(node:82156) DeprecationWarning: Archiver.bulk() deprecated since 0.21.0\r\n"
+    ],
+    [
+      0.024318,
+      "Zipping assets/fonts/ionicons.eot\r\n"
+    ],
+    [
+      0.003292,
+      "Zipping assets/fonts/ionicons.scss\r\n"
+    ],
+    [
+      0.011758,
+      "Zipping assets/fonts/ionicons.svg\r\n"
+    ],
+    [
+      0.006712,
+      "Zipping assets/fonts/ionicons.ttf\r\n"
+    ],
+    [
+      0.005014,
+      "Zipping assets/fonts/ionicons.woff\r\n"
+    ],
+    [
+      0.009043,
+      "Zipping assets/fonts/ionicons.woff2\r\n"
+    ],
+    [
+      0.014864,
+      "Zipping assets/fonts/noto-sans-bold.ttf\r\n"
+    ],
+    [
+      0.017462,
+      "Zipping assets/fonts/noto-sans-regular.ttf\r\n"
+    ],
+    [
+      0.001272,
+      "Zipping assets/fonts/noto-sans.scss\r\n"
+    ],
+    [
+      0.001439,
+      "Zipping assets/fonts/roboto-bold.ttf\r\n"
+    ],
+    [
+      0.001179,
+      "Zipping assets/fonts/roboto-bold.woff\r\n"
+    ],
+    [
+      0.002205,
+      "Zipping assets/fonts/roboto-light.ttf\r\n"
+    ],
+    [
+      0.001471,
+      "Zipping assets/fonts/roboto-light.woff\r\n"
+    ],
+    [
+      0.001457,
+      "Zipping assets/fonts/roboto-medium.ttf\r\n"
+    ],
+    [
+      0.002325,
+      "Zipping assets/fonts/roboto-medium.woff\r\n"
+    ],
+    [
+      0.002096,
+      "Zipping assets/fonts/roboto-regular.ttf\r\n"
+    ],
+    [
+      0.001661,
+      "Zipping assets/fonts/roboto-regular.woff\r\n"
+    ],
+    [
+      0.000963,
+      "Zipping assets/fonts/roboto.scss\r\n"
+    ],
+    [
+      0.003920,
+      "Zipping assets/i18n/en.json\r\n"
+    ],
+    [
+      0.003100,
+      "Zipping assets/i18n/zh.json\r\n"
+    ],
+    [
+      0.001448,
+      "Zipping assets/img/bitpay-wallet-qr-scan-guides.svg\r\n"
+    ],
+    [
+      0.001442,
+      "Zipping assets/img/icon-about.svg\r\n"
+    ],
+    [
+      0.001184,
+      "Zipping assets/img/icon-address-book.svg\r\n"
+    ],
+    [
+      0.001354,
+      "Zipping assets/img/icon-advanced.svg\r\n"
+    ],
+    [
+      0.000719,
+      "Zipping assets/img/icon-arrow-right.svg\r\n"
+    ],
+    [
+      0.000654,
+      "Zipping assets/img/icon-bitcoin-small.svg\r\n"
+    ],
+    [
+      0.000966,
+      "Zipping assets/img/icon-camera-toggle.svg\r\n"
+    ],
+    [
+      0.000794,
+      "Zipping assets/img/icon-contacts.svg\r\n"
+    ],
+    [
+      0.002553,
+      "Zipping assets/img/icon-flash.svg\r\n"
+    ],
+    [
+      0.001289,
+      "Zipping assets/img/icon-language.svg\r\n"
+    ],
+    [
+      0.001541,
+      "Zipping assets/img/icon-link-external.svg\r\n"
+    ],
+    [
+      0.000688,
+      "Zipping assets/img/icon-lock-green.svg\r\n"
+    ],
+    [
+      0.001468,
+      "Zipping assets/img/icon-lock-x.svg\r\n"
+    ],
+    [
+      0.000827,
+      "Zipping assets/img/icon-paperclip.svg\r\n"
+    ],
+    [
+      0.000619,
+      "Zipping assets/img/icon-send-alt.svg\r\n"
+    ],
+    [
+      0.000695,
+      "Zipping assets/img/logo/bitpay/logo-negative.svg\r\n"
+    ],
+    [
+      0.001210,
+      "Zipping assets/img/logo/bitpay/logo.svg\r\n"
+    ],
+    [
+      0.001000,
+      "Zipping assets/img/logo/copay/logo-negative.svg\r\n"
+    ],
+    [
+      0.001703,
+      "Zipping assets/img/logo/copay/logo.svg\r\n"
+    ],
+    [
+      0.005399,
+      "Zipping assets/img/logo/logo.ico\r\n"
+    ],
+    [
+      0.001184,
+      "Zipping assets/img/right.svg\r\n"
+    ],
+    [
+      0.001301,
+      "Zipping assets/img/tab-icons/ico-receive.svg\r\n"
+    ],
+    [
+      0.001645,
+      "Zipping assets/roboto-font/LICENSE.txt\r\n"
+    ],
+    [
+      0.005472,
+      "Zipping assets/roboto-font/Roboto-Black.ttf\r\n"
+    ],
+    [
+      0.004176,
+      "Zipping assets/roboto-font/Roboto-Black.woff\r\n"
+    ],
+    [
+      0.003610,
+      "Zipping assets/roboto-font/Roboto-Black.woff2\r\n"
+    ],
+    [
+      0.005896,
+      "Zipping assets/roboto-font/Roboto-BlackItalic.ttf\r\n"
+    ],
+    [
+      0.004478,
+      "Zipping assets/roboto-font/Roboto-BlackItalic.woff\r\n"
+    ],
+    [
+      0.004447,
+      "Zipping assets/roboto-font/Roboto-BlackItalic.woff2\r\n"
+    ],
+    [
+      0.006224,
+      "Zipping assets/roboto-font/Roboto-Bold.ttf\r\n"
+    ],
+    [
+      0.004110,
+      "Zipping assets/roboto-font/Roboto-Bold.woff\r\n"
+    ],
+    [
+      0.003149,
+      "Zipping assets/roboto-font/Roboto-Bold.woff2\r\n"
+    ],
+    [
+      0.007787,
+      "Zipping assets/roboto-font/Roboto-BoldItalic.ttf\r\n"
+    ],
+    [
+      0.004850,
+      "Zipping assets/roboto-font/Roboto-BoldItalic.woff\r\n"
+    ],
+    [
+      0.003298,
+      "Zipping assets/roboto-font/Roboto-BoldItalic.woff2\r\n"
+    ],
+    [
+      0.006122,
+      "Zipping assets/roboto-font/Roboto-Italic.ttf\r\n"
+    ],
+    [
+      0.004712,
+      "Zipping assets/roboto-font/Roboto-Italic.woff\r\n"
+    ],
+    [
+      0.003548,
+      "Zipping assets/roboto-font/Roboto-Italic.woff2\r\n"
+    ],
+    [
+      0.005749,
+      "Zipping assets/roboto-font/Roboto-Light.ttf\r\n"
+    ],
+    [
+      0.004284,
+      "Zipping assets/roboto-font/Roboto-Light.woff\r\n"
+    ],
+    [
+      0.003157,
+      "Zipping assets/roboto-font/Roboto-Light.woff2\r\n"
+    ],
+    [
+      0.006013,
+      "Zipping assets/roboto-font/Roboto-LightItalic.ttf\r\n"
+    ],
+    [
+      0.005289,
+      "Zipping assets/roboto-font/Roboto-LightItalic.woff\r\n"
+    ],
+    [
+      0.004484,
+      "Zipping assets/roboto-font/Roboto-LightItalic.woff2\r\n"
+    ],
+    [
+      0.005917,
+      "Zipping assets/roboto-font/Roboto-Medium.ttf\r\n"
+    ],
+    [
+      0.004972,
+      "Zipping assets/roboto-font/Roboto-Medium.woff\r\n"
+    ],
+    [
+      0.003764,
+      "Zipping assets/roboto-font/Roboto-Medium.woff2\r\n"
+    ],
+    [
+      0.005982,
+      "Zipping assets/roboto-font/Roboto-MediumItalic.ttf\r\n"
+    ],
+    [
+      0.004983,
+      "Zipping assets/roboto-font/Roboto-MediumItalic.woff\r\n"
+    ],
+    [
+      0.003473,
+      "Zipping assets/roboto-font/Roboto-MediumItalic.woff2\r\n"
+    ],
+    [
+      0.009537,
+      "Zipping assets/roboto-font/Roboto-Regular.ttf\r\n"
+    ],
+    [
+      0.004881,
+      "Zipping assets/roboto-font/Roboto-Regular.woff\r\n"
+    ],
+    [
+      0.003742,
+      "Zipping assets/roboto-font/Roboto-Regular.woff2\r\n"
+    ],
+    [
+      0.005512,
+      "Zipping assets/roboto-font/Roboto-Thin.ttf\r\n"
+    ],
+    [
+      0.005195,
+      "Zipping assets/roboto-font/Roboto-Thin.woff\r\n"
+    ],
+    [
+      0.003299,
+      "Zipping assets/roboto-font/Roboto-Thin.woff2\r\n"
+    ],
+    [
+      0.005911,
+      "Zipping assets/roboto-font/Roboto-ThinItalic.ttf\r\n"
+    ],
+    [
+      0.004839,
+      "Zipping assets/roboto-font/Roboto-ThinItalic.woff\r\n"
+    ],
+    [
+      0.003293,
+      "Zipping assets/roboto-font/Roboto-ThinItalic.woff2\r\n"
+    ],
+    [
+      0.001666,
+      "Zipping assets/roboto-font/roboto-black-webfont.woff\r\n"
+    ],
+    [
+      0.001310,
+      "Zipping assets/roboto-font/roboto-black-webfont.woff2\r\n"
+    ],
+    [
+      0.001744,
+      "Zipping assets/roboto-font/roboto-blackitalic-webfont.woff\r\n"
+    ],
+    [
+      0.001420,
+      "Zipping assets/roboto-font/roboto-blackitalic-webfont.woff2\r\n"
+    ],
+    [
+      0.002011,
+      "Zipping assets/roboto-font/roboto-bold-webfont.woff\r\n"
+    ],
+    [
+      0.001312,
+      "Zipping assets/roboto-font/roboto-bold-webfont.woff2\r\n"
+    ],
+    [
+      0.001619,
+      "Zipping assets/roboto-font/roboto-bolditalic-webfont.woff\r\n"
+    ],
+    [
+      0.001607,
+      "Zipping assets/roboto-font/roboto-bolditalic-webfont.woff2\r\n"
+    ],
+    [
+      0.001780,
+      "Zipping assets/roboto-font/roboto-italic-webfont.woff\r\n"
+    ],
+    [
+      0.001535,
+      "Zipping assets/roboto-font/roboto-italic-webfont.woff2\r\n"
+    ],
+    [
+      0.001866,
+      "Zipping assets/roboto-font/roboto-light-webfont.woff\r\n"
+    ],
+    [
+      0.001339,
+      "Zipping assets/roboto-font/roboto-light-webfont.woff2\r\n"
+    ],
+    [
+      0.002074,
+      "Zipping assets/roboto-font/roboto-lightitalic-webfont.woff\r\n"
+    ],
+    [
+      0.001789,
+      "Zipping assets/roboto-font/roboto-lightitalic-webfont.woff2\r\n"
+    ],
+    [
+      0.001871,
+      "Zipping assets/roboto-font/roboto-medium-webfont.woff\r\n"
+    ],
+    [
+      0.001266,
+      "Zipping assets/roboto-font/roboto-medium-webfont.woff2\r\n"
+    ],
+    [
+      0.001818,
+      "Zipping assets/roboto-font/roboto-mediumitalic-webfont.woff\r\n"
+    ],
+    [
+      0.001707,
+      "Zipping assets/roboto-font/roboto-mediumitalic-webfont.woff2\r\n"
+    ],
+    [
+      0.001890,
+      "Zipping assets/roboto-font/roboto-regular-webfont.woff\r\n"
+    ],
+    [
+      0.001432,
+      "Zipping assets/roboto-font/roboto-regular-webfont.woff2\r\n"
+    ],
+    [
+      0.001943,
+      "Zipping assets/roboto-font/roboto-thin-webfont.woff\r\n"
+    ],
+    [
+      0.002209,
+      "Zipping assets/roboto-font/roboto-thinitalic-webfont.woff\r\n"
+    ],
+    [
+      0.001559,
+      "Zipping assets/roboto-font/roboto-thin-webfont.woff2\r\n"
+    ],
+    [
+      0.001853,
+      "Zipping assets/roboto-font/roboto-thinitalic-webfont.woff2\r\n"
+    ],
+    [
+      0.007170,
+      "Zipping build/main.css\r\n"
+    ],
+    [
+      0.000733,
+      "Zipping build/main.css.map\r\n"
+    ],
+    [
+      0.131170,
+      "Zipping build/main.js\r\n"
+    ],
+    [
+      0.141330,
+      "Zipping build/main.js.map\r\n"
+    ],
+    [
+      0.004020,
+      "Zipping build/polyfills.js\r\n"
+    ],
+    [
+      0.002473,
+      "Zipping build/sw-toolbox.js\r\n"
+    ],
+    [
+      0.000831,
+      "Zipping index.html\r\n"
+    ],
+    [
+      0.001946,
+      "Zipping manifest.json\r\n"
+    ],
+    [
+      0.000805,
+      "Zipping package.json\r\n"
+    ],
+    [
+      0.001096,
+      "Zipping service-worker.js\r\n"
+    ],
+    [
+      0.122229,
+      "\u001b[32mBuild Success! Preparing compile DMG file\u001b[39m\r\n"
+    ],
+    [
+      0.707962,
+      "~/Desktop/myApp/webkitbuilds/tmp ~/Desktop/myApp/webkitbuilds\r\n"
+    ],
+    [
+      0.000006,
+      "~/Desktop/myApp/webkitbuilds\r\n"
+    ],
+    [
+      1.788492,
+      "................."
+    ],
+    [
+      0.000006,
+      "..........................................."
+    ],
+    [
+      0.000002,
+      "...."
+    ],
+    [
+      0.000002,
+      "..."
+    ],
+    [
+      0.000002,
+      "..."
+    ],
+    [
+      0.000002,
+      ".."
+    ],
+    [
+      0.000002,
+      ".."
+    ],
+    [
+      0.000002,
+      ".."
+    ],
+    [
+      0.000002,
+      ".."
+    ],
+    [
+      0.000002,
+      ".."
+    ],
+    [
+      0.000002,
+      ".."
+    ],
+    [
+      0.000002,
+      "..."
+    ],
+    [
+      0.000002,
+      ".."
+    ],
+    [
+      0.000002,
+      ".."
+    ],
+    [
+      0.000002,
+      ".."
+    ],
+    [
+      0.000002,
+      ".."
+    ],
+    [
+      0.000002,
+      ".."
+    ],
+    [
+      0.000002,
+      "..."
+    ],
+    [
+      0.000002,
+      ".."
+    ],
+    [
+      0.000002,
+      ".."
+    ],
+    [
+      0.000002,
+      "..."
+    ],
+    [
+      0.000001,
+      ".."
+    ],
+    [
+      0.000002,
+      ".."
+    ],
+    [
+      0.000002,
+      ".."
+    ],
+    [
+      0.000002,
+      ".."
+    ],
+    [
+      0.000002,
+      "..."
+    ],
+    [
+      0.000002,
+      ".."
+    ],
+    [
+      0.000001,
+      "."
+    ],
+    [
+      0.000409,
+      "\r\n"
+    ],
+    [
+      1.490167,
+      "....."
+    ],
+    [
+      0.000023,
+      ".........................................................."
+    ],
+    [
+      0.000005,
+      "..............."
+    ],
+    [
+      0.000080,
+      "."
+    ],
+    [
+      0.000150,
+      "......................"
+    ],
+    [
+      1.005822,
+      "\r\n"
+    ],
+    [
+      12.094628,
+      "created: "
+    ],
+    [
+      0.000010,
+      "/Users/Daniel/Desktop/myApp/webkitbuilds/Wallet-temp.dmg\r\n"
+    ],
+    [
+      0.695277,
+      "Created DMG: Wallet-temp.dmg\r\n"
+    ],
+    [
+      3.236519,
+      "Adding link to /Applications\r\n"
+    ],
+    [
+      0.000066,
+      "/Volumes/Wallet ~/Desktop/myApp/webkitbuilds\r\n"
+    ],
+    [
+      0.004509,
+      "~/Desktop/myApp/webkitbuilds\r\n"
+    ],
+    [
+      0.000037,
+      "Blessing disk image\r\n"
+    ],
+    [
+      0.024296,
+      "Adding background to disk image\r\n"
+    ],
+    [
+      0.005962,
+      "Adding volume icon to disk image\r\n"
+    ],
+    [
+      1.060688,
+      "Custom icon assigned to '/Volumes/Wallet/' based on '/Volumes/Wallet/.VolumeIcon.icns'.\r\n"
+    ],
+    [
+      0.000380,
+      "Designing the unboxing experience...\r\n"
+    ],
+    [
+      0.311833,
+      "511:607: "
+    ],
+    [
+      0.001740,
+      "execution error: Finder got an error: Can’t set file \".background:../resources/mac/dmg-background.tiff\" of disk \"Wallet\" to file \".background:../resources/mac/dmg-background.tiff\" of disk \"Wallet\"."
+    ],
+    [
+      0.000015,
+      " (-10006)\r\n"
+    ],
+    [
+      0.190410,
+      "\"disk2\" unmounted.\r\n"
+    ],
+    [
+      0.026231,
+      "\"disk2\" ejected.\r\n"
+    ],
+    [
+      0.000753,
+      "Creating compressed image\r\n"
+    ],
+    [
+      0.020428,
+      "Preparing imaging engine…\r\n"
+    ],
+    [
+      0.000632,
+      "Reading Protective Master Boot Record (MBR : 0)…\r\n"
+    ],
+    [
+      0.001472,
+      "   (CRC32 $B25B96F0: Protective Master Boot Record (MBR : 0))\r\n"
+    ],
+    [
+      0.000090,
+      "Reading GPT Header (Primary GPT Header : 1)…\r\n"
+    ],
+    [
+      0.000522,
+      "   (CRC32 $D1779EB5: GPT Header (Primary GPT Header : 1))\r\n"
+    ],
+    [
+      0.000056,
+      "Reading GPT Partition Data (Primary GPT Table : 2)…\r\n"
+    ],
+    [
+      0.000435,
+      "   (CRC32 $BCC5C669: GPT Partition Data (Primary GPT Table : 2))\r\n"
+    ],
+    [
+      0.000070,
+      "Reading  (Apple_Free : 3)…\r\n"
+    ],
+    [
+      0.167265,
+      "   (CRC32 $00000000:  (Apple_Free : 3))\r\n"
+    ],
+    [
+      0.000081,
+      "Reading disk image (Apple_HFS : 4)…\r\n"
+    ],
+    [
+      0.994785,
+      "...."
+    ],
+    [
+      0.000007,
+      "......................"
+    ],
+    [
+      1.002665,
+      "....."
+    ],
+    [
+      0.000007,
+      "........................"
+    ],
+    [
+      1.002372,
+      "......."
+    ],
+    [
+      0.000007,
+      "..............."
+    ],
+    [
+      0.551336,
+      "..."
+    ],
+    [
+      0.000006,
+      "...................."
+    ],
+    [
+      0.198341,
+      "............."
+    ],
+    [
+      0.000011,
+      "....."
+    ],
+    [
+      0.000436,
+      "\r\n"
+    ],
+    [
+      0.000006,
+      "   (CRC32 $EFDD3FA2: disk image (Apple_HFS : 4))\r\n"
+    ],
+    [
+      0.002729,
+      "Reading  (Apple_Free : 5)…\r\n"
+    ],
+    [
+      0.246960,
+      "................"
+    ],
+    [
+      0.000009,
+      "......................................."
+    ],
+    [
+      0.000005,
+      "...."
+    ],
+    [
+      0.000003,
+      "...."
+    ],
+    [
+      0.000003,
+      "..."
+    ],
+    [
+      0.000002,
+      ".."
+    ],
+    [
+      0.000003,
+      "..."
+    ],
+    [
+      0.000002,
+      ".."
+    ],
+    [
+      0.000002,
+      ".."
+    ],
+    [
+      0.000002,
+      ".."
+    ],
+    [
+      0.000002,
+      ".."
+    ],
+    [
+      0.000002,
+      "..."
+    ],
+    [
+      0.000002,
+      ".."
+    ],
+    [
+      0.000002,
+      "..."
+    ],
+    [
+      0.000002,
+      ".."
+    ],
+    [
+      0.000002,
+      "..."
+    ],
+    [
+      0.000018,
+      ".."
+    ],
+    [
+      0.000002,
+      "..."
+    ],
+    [
+      0.000002,
+      ".."
+    ],
+    [
+      0.000002,
+      "..."
+    ],
+    [
+      0.000002,
+      ".."
+    ],
+    [
+      0.000002,
+      "..."
+    ],
+    [
+      0.000002,
+      ".."
+    ],
+    [
+      0.000038,
+      "........."
+    ],
+    [
+      0.000327,
+      "\r\n   (CRC32 $00000000:  (Apple_Free : 5))\r\n"
+    ],
+    [
+      0.000108,
+      "Reading GPT Partition Data (Backup GPT Table : 6)…\r\n"
+    ],
+    [
+      0.000267,
+      "...."
+    ],
+    [
+      0.000004,
+      ".........."
+    ],
+    [
+      0.000003,
+      "..."
+    ],
+    [
+      0.000002,
+      "..."
+    ],
+    [
+      0.000003,
+      ".."
+    ],
+    [
+      0.000002,
+      "..."
+    ],
+    [
+      0.000002,
+      ".."
+    ],
+    [
+      0.000002,
+      ".."
+    ],
+    [
+      0.000002,
+      ".."
+    ],
+    [
+      0.000002,
+      ".."
+    ],
+    [
+      0.000002,
+      ".."
+    ],
+    [
+      0.000002,
+      "..."
+    ],
+    [
+      0.000002,
+      ".."
+    ],
+    [
+      0.000002,
+      ".."
+    ],
+    [
+      0.000002,
+      "..."
+    ],
+    [
+      0.000002,
+      ".."
+    ],
+    [
+      0.000005,
+      "...."
+    ],
+    [
+      0.000002,
+      "."
+    ],
+    [
+      0.000003,
+      ".."
+    ],
+    [
+      0.000013,
+      "."
+    ],
+    [
+      0.000002,
+      ".."
+    ],
+    [
+      0.000002,
+      "."
+    ],
+    [
+      0.000002,
+      ".."
+    ],
+    [
+      0.000002,
+      ".."
+    ],
+    [
+      0.000002,
+      ".."
+    ],
+    [
+      0.000002,
+      "."
+    ],
+    [
+      0.000002,
+      ".."
+    ],
+    [
+      0.000002,
+      "."
+    ],
+    [
+      0.000002,
+      ".."
+    ],
+    [
+      0.000002,
+      "..."
+    ],
+    [
+      0.000002,
+      ".."
+    ],
+    [
+      0.000002,
+      ".."
+    ],
+    [
+      0.000002,
+      ".."
+    ],
+    [
+      0.000003,
+      "..."
+    ],
+    [
+      0.000020,
+      "......."
+    ],
+    [
+      0.000005,
+      "..............."
+    ],
+    [
+      0.000003,
+      "...."
+    ],
+    [
+      0.000003,
+      "...."
+    ],
+    [
+      0.000003,
+      "...."
+    ],
+    [
+      0.000003,
+      ".."
+    ],
+    [
+      0.000237,
+      "\r\n   (CRC32 $BCC5C669: GPT Partition Data (Backup GPT Table : 6))\r\n"
+    ],
+    [
+      0.000099,
+      "Reading GPT Header (Backup GPT Header : 7)…\r\n"
+    ],
+    [
+      0.998198,
+      "......."
+    ],
+    [
+      0.000008,
+      "........................................."
+    ],
+    [
+      0.000003,
+      "...."
+    ],
+    [
+      0.000002,
+      ".."
+    ],
+    [
+      0.000003,
+      "..."
+    ],
+    [
+      0.000002,
+      ".."
+    ],
+    [
+      0.000002,
+      ".."
+    ],
+    [
+      0.000002,
+      ".."
+    ],
+    [
+      0.000002,
+      ".."
+    ],
+    [
+      0.000002,
+      ".."
+    ],
+    [
+      0.000002,
+      ".."
+    ],
+    [
+      0.000003,
+      ".."
+    ],
+    [
+      0.000002,
+      "..."
+    ],
+    [
+      0.000002,
+      ".."
+    ],
+    [
+      0.000002,
+      ".."
+    ],
+    [
+      0.000002,
+      ".."
+    ],
+    [
+      0.000002,
+      ".."
+    ],
+    [
+      0.000002,
+      ".."
+    ],
+    [
+      0.000002,
+      "..."
+    ],
+    [
+      0.000002,
+      ".."
+    ],
+    [
+      0.000002,
+      "..."
+    ],
+    [
+      0.000002,
+      ".."
+    ],
+    [
+      0.000002,
+      ".."
+    ],
+    [
+      0.000002,
+      ".."
+    ],
+    [
+      0.000002,
+      "..."
+    ],
+    [
+      0.000002,
+      ".."
+    ],
+    [
+      0.000003,
+      "..."
+    ],
+    [
+      0.000002,
+      ".."
+    ],
+    [
+      0.000002,
+      ".."
+    ],
+    [
+      0.000002,
+      "..."
+    ],
+    [
+      0.000002,
+      ".."
+    ],
+    [
+      0.000002,
+      ".."
+    ],
+    [
+      0.000002,
+      ".."
+    ],
+    [
+      0.000337,
+      "\r\n   (CRC32 $975BD672: GPT Header (Backup GPT Header : 7))\r\n"
+    ],
+    [
+      0.017285,
+      "Adding resources…\r\n"
+    ],
+    [
+      0.000008,
+      ".............."
+    ],
+    [
+      0.000025,
+      "...."
+    ],
+    [
+      0.000003,
+      "......."
+    ],
+    [
+      0.000002,
+      "...."
+    ],
+    [
+      0.000022,
+      "..."
+    ],
+    [
+      0.000002,
+      "...."
+    ],
+    [
+      0.000002,
+      ".."
+    ],
+    [
+      0.000002,
+      "..."
+    ],
+    [
+      0.000002,
+      ".."
+    ],
+    [
+      0.000003,
+      "."
+    ],
+    [
+      0.000056,
+      "..............."
+    ],
+    [
+      0.000036,
+      "............"
+    ],
+    [
+      0.000013,
+      ".."
+    ],
+    [
+      0.000076,
+      "....."
+    ],
+    [
+      0.000004,
+      ".........."
+    ],
+    [
+      0.000002,
+      "."
+    ],
+    [
+      0.000048,
+      "..."
+    ],
+    [
+      0.000003,
+      "......."
+    ],
+    [
+      0.000003,
+      "..."
+    ],
+    [
+      0.000002,
+      "."
+    ],
+    [
+      0.000047,
+      "......."
+    ],
+    [
+      0.000004,
+      "........"
+    ],
+    [
+      0.000002,
+      "."
+    ],
+    [
+      0.005297,
+      "\r\nElapsed Time:  5.169s\r\nFile size: 83602673 bytes, Checksum: CRC32 $2C14DDB3\r\n"
+    ],
+    [
+      0.000005,
+      "Sectors processed: 512000, 441748 compressed\r\nSpeed: 41.7Mbytes/sec\r\nSavings: 68.1%\r\n"
+    ],
+    [
+      0.000079,
+      "created: /Users/Daniel/Desktop/myApp/webkitbuilds/Wallet.dmg"
+    ],
+    [
+      0.000007,
+      "\r\n"
+    ],
+    [
+      0.045080,
+      "Done.\r\n"
+    ],
+    [
+      0.013168,
+      "\u001b[1m\u001b[3m%\u001b[23m\u001b[1m\u001b[0m                                                                                                                       \r \r"
+    ],
+    [
+      0.000123,
+      "\u001bk~/Desktop/myApp\u001b\\"
+    ],
+    [
+      0.041462,
+      "\r\u001b[0m\u001b[23m\u001b[24m\u001b[J\u001b[01;32m➜  \u001b[36mmyApp\u001b[00m \u001b[01;34mgit:(\u001b[31mmaster\u001b[34m) \u001b[33m✗\u001b[00m "
+    ],
+    [
+      0.000007,
+      "\u001b[K"
+    ],
+    [
+      0.000083,
+      "\u001b[?1h\u001b="
+    ],
+    [
+      0.000054,
+      "\u001b[?2004h"
+    ],
+    [
+      4.175810,
+      "\u001b[?2004l"
+    ],
+    [
+      0.000004,
+      "\r\r\n"
+    ]
+  ]
+}

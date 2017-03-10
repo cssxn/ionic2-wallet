@@ -4,6 +4,7 @@ import { ScanPage } from './scan/scan';
 import { SendPage } from './send/send';
 import { SettingsPage } from './settings/settings';
 import { TabsPage } from './tabs/tabs';
+import { ContactsPage } from './contacts/contacts';
 
 export const PAGES = [
   HomePage,
@@ -11,5 +12,8 @@ export const PAGES = [
   ScanPage,
   SendPage,
   SettingsPage,
-  TabsPage
+  TabsPage,
+
+  // 设置页面下面的功能
+  ContactsPage
 ];

@@ -14,6 +14,17 @@
 * 添加生成二维码
 * 添加操作剪切板功能
 
+#### 2017-03-06
+
+* 添加了bitcore-lib|bitcore-mnemonic
+* 集成了nwJS打包功能
+
+
+### Build
+
+```
+npm run build:macos
+```
 
 
 ### IOS真机器调试

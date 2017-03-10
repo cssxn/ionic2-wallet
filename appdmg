@@ -1,0 +1,246 @@
+{
+  "version": 1,
+  "width": 133,
+  "height": 32,
+  "duration": 15.006794,
+  "command": "/bin/zsh",
+  "title": "osx 打包dmg",
+  "env": {
+    "TERM": "screen",
+    "SHELL": "/bin/zsh"
+  },
+  "stdout": [
+    [
+      0.159842,
+      "\u001b[1m\u001b[3m%\u001b[23m\u001b[1m\u001b[0m                                                                                                                                    \r \r"
+    ],
+    [
+      0.000018,
+      "\u001bk~/Desktop/myApp\u001b\\"
+    ],
+    [
+      0.035090,
+      "\r\u001b[0m\u001b[23m\u001b[24m\u001b[J\u001b[01;32m➜  \u001b[36mmyApp\u001b[00m \u001b[01;34mgit:(\u001b[31mmaster\u001b[34m) \u001b[33m✗\u001b[00m \u001b[K"
+    ],
+    [
+      0.000088,
+      "\u001b[?1h\u001b="
+    ],
+    [
+      0.000037,
+      "\u001b[?2004h"
+    ],
+    [
+      1.250657,
+      "asciinema rec -t \"osx 打包dmg\" appdmg"
+    ],
+    [
+      0.166917,
+      "\u001b[37Dappdmg webkitbuilds/dmg-config.json ~/Desktop/wallet.dmg"
+    ],
+    [
+      0.898435,
+      "\u001b[?1l\u001b\u003e"
+    ],
+    [
+      0.000060,
+      "\u001b[?2004l"
+    ],
+    [
+      0.000020,
+      "\r\r\n"
+    ],
+    [
+      0.000817,
+      "\u001bkappdmg\u001b\\"
+    ],
+    [
+      -1488790140.758973,
+      "[ 1/20] Looking for target...                "
+    ],
+    [
+      -0.000026,
+      "[\u001b[0;32m OK \u001b[0m]\r\n"
+    ],
+    [
+      0.000026,
+      "[ 2/20] Reading JSON Specification...        "
+    ],
+    [
+      -0.000026,
+      "[\u001b[0;32m OK \u001b[0m]\r\n"
+    ],
+    [
+      0.000026,
+      "[ 3/20] Parsing JSON Specification...        "
+    ],
+    [
+      -0.000026,
+      "[\u001b[0;32m OK \u001b[0m]\r\n"
+    ],
+    [
+      0.000026,
+      "[ 4/20] Validating JSON Specification...     "
+    ],
+    [
+      -0.000026,
+      "[\u001b[0;32m OK \u001b[0m]\r\n"
+    ],
+    [
+      0.000026,
+      "[ 5/20] Looking for files...                 "
+    ],
+    [
+      -0.000026,
+      "[\u001b[0;32m OK \u001b[0m]\r\n"
+    ],
+    [
+      0.000026,
+      "[ 6/20] Calculating size of image...         "
+    ],
+    [
+      1488790140.965781,
+      "[\u001b[0;32m OK \u001b[0m]\r\n"
+    ],
+    [
+      0.000145,
+      "[ 7/20] Creating temporary image...          "
+    ],
+    [
+      2.029892,
+      "[\u001b[0;32m OK \u001b[0m]\r\n"
+    ],
+    [
+      0.000007,
+      "[ 8/20] Mounting temporary image...          "
+    ],
+    [
+      1.240092,
+      "[\u001b[0;32m OK \u001b[0m]\r\n"
+    ],
+    [
+      0.000007,
+      "[ 9/20] Making hidden background folder...   "
+    ],
+    [
+      0.000316,
+      "[\u001b[0;32m OK \u001b[0m]\r\n"
+    ],
+    [
+      0.000022,
+      "[10/20] Copying background...                "
+    ],
+    [
+      0.011692,
+      "[\u001b[0;32m OK \u001b[0m]\r\n"
+    ],
+    [
+      0.000006,
+      "[11/20] Reading background dimensions...     "
+    ],
+    [
+      0.003207,
+      "[\u001b[0;32m OK \u001b[0m]\r\n"
+    ],
+    [
+      0.000052,
+      "[12/20] Copying icon...                      "
+    ],
+    [
+      0.002742,
+      "[\u001b[0;32m OK \u001b[0m]\r\n"
+    ],
+    [
+      0.000004,
+      "[13/20] Setting icon...                      "
+    ],
+    [
+      0.000790,
+      "[\u001b[0;32m OK \u001b[0m]\r\n"
+    ],
+    [
+      0.000004,
+      "[14/20] Creating links...                    "
+    ],
+    [
+      0.000467,
+      "[\u001b[0;32m OK \u001b[0m]\r\n"
+    ],
+    [
+      0.000003,
+      "[15/20] Copying files...                     "
+    ],
+    [
+      0.495464,
+      "[\u001b[0;32m OK \u001b[0m]\r\n"
+    ],
+    [
+      0.000005,
+      "[16/20] Making all the visuals...            "
+    ],
+    [
+      0.016594,
+      "[\u001b[0;32m OK \u001b[0m]\r\n"
+    ],
+    [
+      0.000006,
+      "[17/20] Blessing image...                    "
+    ],
+    [
+      0.017157,
+      "[\u001b[0;32m OK \u001b[0m]\r\n"
+    ],
+    [
+      0.000008,
+      "[18/20] Unmounting temporary image...        "
+    ],
+    [
+      0.110716,
+      "[\u001b[0;32m OK \u001b[0m]\r\n"
+    ],
+    [
+      0.000016,
+      "[19/20] Finalizing image...                  "
+    ],
+    [
+      5.131359,
+      "[\u001b[0;32m OK \u001b[0m]\r\n"
+    ],
+    [
+      0.000095,
+      "[20/20] Removing temporary image...          "
+    ],
+    [
+      0.000342,
+      "[\u001b[0;32m OK \u001b[0m]\r\n"
+    ],
+    [
+      0.000342,
+      "\r\n\u001b[0;32mYour image is ready:\u001b[0m\r\n/Users/Daniel/Desktop/wallet.dmg\r\n"
+    ],
+    [
+      0.005026,
+      "\u001b[1m\u001b[3m%\u001b[23m\u001b[1m\u001b[0m                                                                                                                                    \r \r"
+    ],
+    [
+      0.000078,
+      "\u001bk~/Desktop/myApp\u001b\\"
+    ],
+    [
+      0.031955,
+      "\r\u001b[0m\u001b[23m\u001b[24m\u001b[J\u001b[01;32m➜  \u001b[36mmyApp\u001b[00m \u001b[01;34mgit:(\u001b[31mmaster\u001b[34m) \u001b[33m✗\u001b[00m \u001b[K"
+    ],
+    [
+      0.000062,
+      "\u001b[?1h\u001b="
+    ],
+    [
+      0.000043,
+      "\u001b[?2004h"
+    ],
+    [
+      3.171339,
+      "\u001b[?2004l\r\r\n"
+    ]
+  ]
+}

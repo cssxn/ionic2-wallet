@@ -20,6 +20,7 @@ import { ScannerService } from './scanner.service';
 
 import { BaseService } from './base-service';
 import { BitcoreService } from './bitcore.service';
+import { UtilsService } from './utils.service';
 
 export const SERVICES = [
   // AppConfigService,
@@ -30,6 +31,7 @@ export const SERVICES = [
   FileStorageService,
   IncomingDataService,
   LocalStorageService,
+  UtilsService,
   // PayproService,
   PlatformInfo,
   // PopupService,

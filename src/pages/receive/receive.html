@@ -14,25 +14,15 @@
     <!--二维码-->
     <qr-code [value]="addressQRCode" [size]="230"></qr-code>
 
-    <!--钱包地址text-->
-    <ion-card-content>
-      <ion-label>{{addressQRCode}}</ion-label>
-    </ion-card-content>
-
+    <!--二维码地址-->
+    <ion-list>
+      <ion-item>
+        <ion-label>{{addressQRCode}}</ion-label>
+      </ion-item>
+    </ion-list>
   </ion-card>
 
 
-
-
-  <ion-list>
-    <ion-item>
-      <button ion-button full (click)="pasteAddress()">{{pasteAddressButtonTitle}}</button>
-    </ion-item>
-
-    <ion-item>
-      <ion-textarea placeholder="Enter a description"></ion-textarea>
-    </ion-item>
-  </ion-list>
 
 
 </ion-content>

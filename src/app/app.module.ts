@@ -19,6 +19,8 @@ export function HttpLoaderFactory(http: Http) {
 }
 // QrCode
 import { QRCodeModule } from 'angular2-qrcode';
+// Clipboard
+import { ClipboardService } from 'ng2-clipboard/ng2-clipboard';
 
 /**
  *  Pages
@@ -63,6 +65,6 @@ import { SERVICES } from '../services/services.service';
     MyApp,
     ...PAGES
   ],
-  providers: [Logger,...SERVICES, { provide: ErrorHandler, useClass: IonicErrorHandler }]
+  providers: [Logger,ClipboardService,...SERVICES, { provide: ErrorHandler, useClass: IonicErrorHandler }]
 })
 export class AppModule { }

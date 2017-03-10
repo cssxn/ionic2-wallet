@@ -1,0 +1,15 @@
+{
+  "title": "Wallet Application",
+  "icon": "../resources/mac/app.icns",
+  "icon-size":100,
+  "background": "../resources/mac/dmg-background.tiff",
+  "window":{
+        "width":500,
+        "height":375
+  },
+  "contents": [
+    { "x": 448, "y": 185, "type": "link", "path": "/Applications" },
+    { "x": 192, "y": 185, "type": "file", "path": "./Wallet/osx64/Wallet.app" }
+  ]
+  
+}
